@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  cooper
+//  Cooper
 //
 //  Created by Karthik K Manoj on 29/12/24.
 //

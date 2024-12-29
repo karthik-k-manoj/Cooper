@@ -1,14 +1,14 @@
 //
-//  cooperTests.swift
-//  cooperTests
+//  CooperTests.swift
+//  CooperTests
 //
 //  Created by Karthik K Manoj on 29/12/24.
 //
 
 import XCTest
-@testable import cooper
+@testable import Cooper
 
-final class cooperTests: XCTestCase {
+final class CooperTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

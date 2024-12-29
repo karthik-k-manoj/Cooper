@@ -6,63 +6,64 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DAED8FFB2D21366A0052E7A5 /* CooperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED8FFA2D21366A0052E7A5 /* CooperApp.swift */; };
+		DAED8FFD2D21366A0052E7A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED8FFC2D21366A0052E7A5 /* ContentView.swift */; };
+		DAED8FFF2D21366B0052E7A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAED8FFE2D21366B0052E7A5 /* Assets.xcassets */; };
+		DAED900C2D21366C0052E7A5 /* CooperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED900B2D21366C0052E7A5 /* CooperTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		DAED8FA92D2130F30052E7A5 /* PBXContainerItemProxy */ = {
+		DAED90082D21366C0052E7A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAED8F902D2130F00052E7A5 /* Project object */;
+			containerPortal = DAED8FEF2D21366A0052E7A5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DAED8F972D2130F00052E7A5;
-			remoteInfo = cooper;
+			remoteGlobalIDString = DAED8FF62D21366A0052E7A5;
+			remoteInfo = Cooper;
 		};
-		DAED8FB32D2130F30052E7A5 /* PBXContainerItemProxy */ = {
+		DAED90122D21366C0052E7A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAED8F902D2130F00052E7A5 /* Project object */;
+			containerPortal = DAED8FEF2D21366A0052E7A5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DAED8F972D2130F00052E7A5;
-			remoteInfo = cooper;
+			remoteGlobalIDString = DAED8FF62D21366A0052E7A5;
+			remoteInfo = Cooper;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DAED8F982D2130F00052E7A5 /* cooper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cooper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAED8FA82D2130F30052E7A5 /* cooperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cooperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAED8FB22D2130F30052E7A5 /* cooperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cooperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAED8FF72D21366A0052E7A5 /* Cooper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cooper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAED8FFA2D21366A0052E7A5 /* CooperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooperApp.swift; sourceTree = "<group>"; };
+		DAED8FFC2D21366A0052E7A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAED8FFE2D21366B0052E7A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAED90072D21366C0052E7A5 /* CooperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAED900B2D21366C0052E7A5 /* CooperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooperTests.swift; sourceTree = "<group>"; };
+		DAED90112D21366C0052E7A5 /* CooperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DAED8F9A2D2130F00052E7A5 /* cooper */ = {
+		DAED90252D2136860052E7A5 /* Preview Content */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = cooper;
-			sourceTree = "<group>";
-		};
-		DAED8FAB2D2130F30052E7A5 /* cooperTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = cooperTests;
-			sourceTree = "<group>";
-		};
-		DAED8FB52D2130F30052E7A5 /* cooperUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = cooperUITests;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DAED8F952D2130F00052E7A5 /* Frameworks */ = {
+		DAED8FF42D21366A0052E7A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAED8FA52D2130F30052E7A5 /* Frameworks */ = {
+		DAED90042D21366C0052E7A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAED8FAF2D2130F30052E7A5 /* Frameworks */ = {
+		DAED900E2D21366C0052E7A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,157 +73,162 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DAED8F8F2D2130F00052E7A5 = {
+		DAED8FEE2D21366A0052E7A5 = {
 			isa = PBXGroup;
 			children = (
-				DAED8F9A2D2130F00052E7A5 /* cooper */,
-				DAED8FAB2D2130F30052E7A5 /* cooperTests */,
-				DAED8FB52D2130F30052E7A5 /* cooperUITests */,
-				DAED8F992D2130F00052E7A5 /* Products */,
+				DAED90252D2136860052E7A5 /* Preview Content */,
+				DAED8FFE2D21366B0052E7A5 /* Assets.xcassets */,
+				DAED8FFC2D21366A0052E7A5 /* ContentView.swift */,
+				DAED8FFA2D21366A0052E7A5 /* CooperApp.swift */,
+				DAED90272D21369C0052E7A5 /* CooperTests */,
+				DAED8FF82D21366A0052E7A5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DAED8F992D2130F00052E7A5 /* Products */ = {
+		DAED8FF82D21366A0052E7A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAED8F982D2130F00052E7A5 /* cooper.app */,
-				DAED8FA82D2130F30052E7A5 /* cooperTests.xctest */,
-				DAED8FB22D2130F30052E7A5 /* cooperUITests.xctest */,
+				DAED8FF72D21366A0052E7A5 /* Cooper.app */,
+				DAED90072D21366C0052E7A5 /* CooperTests.xctest */,
+				DAED90112D21366C0052E7A5 /* CooperUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DAED90272D21369C0052E7A5 /* CooperTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAED900B2D21366C0052E7A5 /* CooperTests.swift */,
+			);
+			path = CooperTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAED8F972D2130F00052E7A5 /* cooper */ = {
+		DAED8FF62D21366A0052E7A5 /* Cooper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAED8FBC2D2130F30052E7A5 /* Build configuration list for PBXNativeTarget "cooper" */;
+			buildConfigurationList = DAED901B2D21366C0052E7A5 /* Build configuration list for PBXNativeTarget "Cooper" */;
 			buildPhases = (
-				DAED8F942D2130F00052E7A5 /* Sources */,
-				DAED8F952D2130F00052E7A5 /* Frameworks */,
-				DAED8F962D2130F00052E7A5 /* Resources */,
+				DAED8FF32D21366A0052E7A5 /* Sources */,
+				DAED8FF42D21366A0052E7A5 /* Frameworks */,
+				DAED8FF52D21366A0052E7A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				DAED8F9A2D2130F00052E7A5 /* cooper */,
+				DAED90252D2136860052E7A5 /* Preview Content */,
 			);
-			name = cooper;
+			name = Cooper;
 			packageProductDependencies = (
 			);
-			productName = cooper;
-			productReference = DAED8F982D2130F00052E7A5 /* cooper.app */;
+			productName = Cooper;
+			productReference = DAED8FF72D21366A0052E7A5 /* Cooper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DAED8FA72D2130F30052E7A5 /* cooperTests */ = {
+		DAED90062D21366C0052E7A5 /* CooperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAED8FBF2D2130F30052E7A5 /* Build configuration list for PBXNativeTarget "cooperTests" */;
+			buildConfigurationList = DAED901E2D21366C0052E7A5 /* Build configuration list for PBXNativeTarget "CooperTests" */;
 			buildPhases = (
-				DAED8FA42D2130F30052E7A5 /* Sources */,
-				DAED8FA52D2130F30052E7A5 /* Frameworks */,
-				DAED8FA62D2130F30052E7A5 /* Resources */,
+				DAED90032D21366C0052E7A5 /* Sources */,
+				DAED90042D21366C0052E7A5 /* Frameworks */,
+				DAED90052D21366C0052E7A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DAED8FAA2D2130F30052E7A5 /* PBXTargetDependency */,
+				DAED90092D21366C0052E7A5 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				DAED8FAB2D2130F30052E7A5 /* cooperTests */,
-			);
-			name = cooperTests;
+			name = CooperTests;
 			packageProductDependencies = (
 			);
-			productName = cooperTests;
-			productReference = DAED8FA82D2130F30052E7A5 /* cooperTests.xctest */;
+			productName = CooperTests;
+			productReference = DAED90072D21366C0052E7A5 /* CooperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DAED8FB12D2130F30052E7A5 /* cooperUITests */ = {
+		DAED90102D21366C0052E7A5 /* CooperUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAED8FC22D2130F30052E7A5 /* Build configuration list for PBXNativeTarget "cooperUITests" */;
+			buildConfigurationList = DAED90212D21366C0052E7A5 /* Build configuration list for PBXNativeTarget "CooperUITests" */;
 			buildPhases = (
-				DAED8FAE2D2130F30052E7A5 /* Sources */,
-				DAED8FAF2D2130F30052E7A5 /* Frameworks */,
-				DAED8FB02D2130F30052E7A5 /* Resources */,
+				DAED900D2D21366C0052E7A5 /* Sources */,
+				DAED900E2D21366C0052E7A5 /* Frameworks */,
+				DAED900F2D21366C0052E7A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DAED8FB42D2130F30052E7A5 /* PBXTargetDependency */,
+				DAED90132D21366C0052E7A5 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				DAED8FB52D2130F30052E7A5 /* cooperUITests */,
-			);
-			name = cooperUITests;
+			name = CooperUITests;
 			packageProductDependencies = (
 			);
-			productName = cooperUITests;
-			productReference = DAED8FB22D2130F30052E7A5 /* cooperUITests.xctest */;
+			productName = CooperUITests;
+			productReference = DAED90112D21366C0052E7A5 /* CooperUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DAED8F902D2130F00052E7A5 /* Project object */ = {
+		DAED8FEF2D21366A0052E7A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					DAED8F972D2130F00052E7A5 = {
+					DAED8FF62D21366A0052E7A5 = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					DAED8FA72D2130F30052E7A5 = {
+					DAED90062D21366C0052E7A5 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = DAED8F972D2130F00052E7A5;
+						TestTargetID = DAED8FF62D21366A0052E7A5;
 					};
-					DAED8FB12D2130F30052E7A5 = {
+					DAED90102D21366C0052E7A5 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = DAED8F972D2130F00052E7A5;
+						TestTargetID = DAED8FF62D21366A0052E7A5;
 					};
 				};
 			};
-			buildConfigurationList = DAED8F932D2130F00052E7A5 /* Build configuration list for PBXProject "cooper" */;
+			buildConfigurationList = DAED8FF22D21366A0052E7A5 /* Build configuration list for PBXProject "Cooper" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = DAED8F8F2D2130F00052E7A5;
+			mainGroup = DAED8FEE2D21366A0052E7A5;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = DAED8F992D2130F00052E7A5 /* Products */;
+			productRefGroup = DAED8FF82D21366A0052E7A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAED8F972D2130F00052E7A5 /* cooper */,
-				DAED8FA72D2130F30052E7A5 /* cooperTests */,
-				DAED8FB12D2130F30052E7A5 /* cooperUITests */,
+				DAED8FF62D21366A0052E7A5 /* Cooper */,
+				DAED90062D21366C0052E7A5 /* CooperTests */,
+				DAED90102D21366C0052E7A5 /* CooperUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DAED8F962D2130F00052E7A5 /* Resources */ = {
+		DAED8FF52D21366A0052E7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAED8FFF2D21366B0052E7A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAED90052D21366C0052E7A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAED8FA62D2130F30052E7A5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAED8FB02D2130F30052E7A5 /* Resources */ = {
+		DAED900F2D21366C0052E7A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +238,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DAED8F942D2130F00052E7A5 /* Sources */ = {
+		DAED8FF32D21366A0052E7A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAED8FFD2D21366A0052E7A5 /* ContentView.swift in Sources */,
+				DAED8FFB2D21366A0052E7A5 /* CooperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAED8FA42D2130F30052E7A5 /* Sources */ = {
+		DAED90032D21366C0052E7A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAED900C2D21366C0052E7A5 /* CooperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAED8FAE2D2130F30052E7A5 /* Sources */ = {
+		DAED900D2D21366C0052E7A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +265,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DAED8FAA2D2130F30052E7A5 /* PBXTargetDependency */ = {
+		DAED90092D21366C0052E7A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAED8F972D2130F00052E7A5 /* cooper */;
-			targetProxy = DAED8FA92D2130F30052E7A5 /* PBXContainerItemProxy */;
+			target = DAED8FF62D21366A0052E7A5 /* Cooper */;
+			targetProxy = DAED90082D21366C0052E7A5 /* PBXContainerItemProxy */;
 		};
-		DAED8FB42D2130F30052E7A5 /* PBXTargetDependency */ = {
+		DAED90132D21366C0052E7A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAED8F972D2130F00052E7A5 /* cooper */;
-			targetProxy = DAED8FB32D2130F30052E7A5 /* PBXContainerItemProxy */;
+			target = DAED8FF62D21366A0052E7A5 /* Cooper */;
+			targetProxy = DAED90122D21366C0052E7A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		DAED8FBA2D2130F30052E7A5 /* Debug */ = {
+		DAED90192D21366C0052E7A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +341,7 @@
 			};
 			name = Debug;
 		};
-		DAED8FBB2D2130F30052E7A5 /* Release */ = {
+		DAED901A2D21366C0052E7A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,14 +397,14 @@
 			};
 			name = Release;
 		};
-		DAED8FBD2D2130F30052E7A5 /* Debug */ = {
+		DAED901C2D21366C0052E7A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"cooper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Cooper/Preview Content\"";
 				DEVELOPMENT_TEAM = JW84YRZDHK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,7 +418,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.karthikkmanoj.cooper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthikkmanoj.Cooper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -417,14 +426,14 @@
 			};
 			name = Debug;
 		};
-		DAED8FBE2D2130F30052E7A5 /* Release */ = {
+		DAED901D2D21366C0052E7A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"cooper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Cooper/Preview Content\"";
 				DEVELOPMENT_TEAM = JW84YRZDHK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -438,7 +447,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.karthikkmanoj.cooper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthikkmanoj.Cooper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,7 +455,7 @@
 			};
 			name = Release;
 		};
-		DAED8FC02D2130F30052E7A5 /* Debug */ = {
+		DAED901F2D21366C0052E7A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,16 +465,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.karthikkmanoj.cooperTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthikkmanoj.CooperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cooper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cooper";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cooper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cooper";
 			};
 			name = Debug;
 		};
-		DAED8FC12D2130F30052E7A5 /* Release */ = {
+		DAED90202D21366C0052E7A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,16 +484,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.karthikkmanoj.cooperTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthikkmanoj.CooperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cooper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cooper";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cooper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cooper";
 			};
 			name = Release;
 		};
-		DAED8FC32D2130F30052E7A5 /* Debug */ = {
+		DAED90222D21366C0052E7A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -492,16 +501,16 @@
 				DEVELOPMENT_TEAM = JW84YRZDHK;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.karthikkmanoj.cooperUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthikkmanoj.CooperUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = cooper;
+				TEST_TARGET_NAME = Cooper;
 			};
 			name = Debug;
 		};
-		DAED8FC42D2130F30052E7A5 /* Release */ = {
+		DAED90232D21366C0052E7A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -509,55 +518,55 @@
 				DEVELOPMENT_TEAM = JW84YRZDHK;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.karthikkmanoj.cooperUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthikkmanoj.CooperUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = cooper;
+				TEST_TARGET_NAME = Cooper;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAED8F932D2130F00052E7A5 /* Build configuration list for PBXProject "cooper" */ = {
+		DAED8FF22D21366A0052E7A5 /* Build configuration list for PBXProject "Cooper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAED8FBA2D2130F30052E7A5 /* Debug */,
-				DAED8FBB2D2130F30052E7A5 /* Release */,
+				DAED90192D21366C0052E7A5 /* Debug */,
+				DAED901A2D21366C0052E7A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAED8FBC2D2130F30052E7A5 /* Build configuration list for PBXNativeTarget "cooper" */ = {
+		DAED901B2D21366C0052E7A5 /* Build configuration list for PBXNativeTarget "Cooper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAED8FBD2D2130F30052E7A5 /* Debug */,
-				DAED8FBE2D2130F30052E7A5 /* Release */,
+				DAED901C2D21366C0052E7A5 /* Debug */,
+				DAED901D2D21366C0052E7A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAED8FBF2D2130F30052E7A5 /* Build configuration list for PBXNativeTarget "cooperTests" */ = {
+		DAED901E2D21366C0052E7A5 /* Build configuration list for PBXNativeTarget "CooperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAED8FC02D2130F30052E7A5 /* Debug */,
-				DAED8FC12D2130F30052E7A5 /* Release */,
+				DAED901F2D21366C0052E7A5 /* Debug */,
+				DAED90202D21366C0052E7A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAED8FC22D2130F30052E7A5 /* Build configuration list for PBXNativeTarget "cooperUITests" */ = {
+		DAED90212D21366C0052E7A5 /* Build configuration list for PBXNativeTarget "CooperUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAED8FC32D2130F30052E7A5 /* Debug */,
-				DAED8FC42D2130F30052E7A5 /* Release */,
+				DAED90222D21366C0052E7A5 /* Debug */,
+				DAED90232D21366C0052E7A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DAED8F902D2130F00052E7A5 /* Project object */;
+	rootObject = DAED8FEF2D21366A0052E7A5 /* Project object */;
 }
